@@ -1,6 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
@@ -35,18 +36,19 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title:'Hello World App',
-      hash:true,
-      minify:{
-        removeContents:true,
-        collapseWhitespace:false,
-        minifyCSS:true
+      title: 'Hello World App',
+      hash: true,
+      minify: {
+        removeContents: true,
+        collapseWhitespace: false,
+        minifyCSS: true
       },
-      filename:'index.html',
-      template:'src/index.html'
+      filename: 'index.html',
+      template: 'index.html'
     }),
     new MiniCssExtractPlugin({
       filename: "./[name].buddle.css"
-    })
+    }),
+    new CleanWebpackPlugin()
   ]
 }
