@@ -6,4 +6,6 @@ export default function sayHello() {
     console.log("Hello Spacemacs");
     var a = 0;
     var b = true;
+    var c = "dads";
 }
+
