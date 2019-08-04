@@ -7,5 +7,6 @@ export default function sayHello() {
     var a = 0;
     var b = true;
     var c = "dads";
+    var d = {};
 }
 
