@@ -5,4 +5,5 @@ export default function sayHello() {
     console.log("Hello Everyone");
     console.log("Hello Spacemacs");
     var a = 0;
+    var b = true;
 }
