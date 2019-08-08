@@ -1,6 +1,5 @@
 #+TITLE: VueDemo
-#+OPTIONS: toc:2 num:t
-#+TOC: headlines 2
+#+OPTIONS: ^:nil _:nil f:nil toc:t num:t
 
 ** Why
 *** Easy
