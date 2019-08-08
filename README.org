@@ -1,5 +1,5 @@
 #+TITLE: VueDemo
-#+OPTIONS: toc:2
+#+OPTIONS: H:2 toc:2
 
 ** Why
 *** Easy
