@@ -1,5 +1,5 @@
 #+TITLE: VueDemo
-#+OPTIONS: toc:2
+#+OPTIONS: toc:2 num:t
 #+TOC: headlines 2
 
 ** Why
