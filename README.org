@@ -1,6 +1,5 @@
 #+TITLE: VueDemo
 #+OPTIONS: toc:2
-* VueDemo
 
 ** Why
 *** Easy
